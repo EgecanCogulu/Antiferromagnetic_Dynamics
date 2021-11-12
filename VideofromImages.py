@@ -11,7 +11,7 @@ import numpy as np
 
 folder=r"gif2\\"
 image_folder = r'C:\Users\Egecan\Desktop\AFM1\\'
-video_name =r'C:\Users\Egecan\Desktop\AFM_FL_DL_low.mp4'
+video_name =r'C:\Users\Egecan\Desktop\AFM_DL_high.mp4'
 
 images = [img for img in os.listdir(image_folder) if img.endswith(".png")]
 images = list(np.sort(images))
